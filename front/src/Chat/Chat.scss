@@ -1,0 +1,8 @@
+@import '../utils/mixins';
+
+.chat{
+  @include flex(column, flex-end, initial);
+  display: flex !important;
+  height: 98vh;
+
+}

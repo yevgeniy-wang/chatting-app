@@ -1,0 +1,5 @@
+@import '../utils/mixins';
+
+.message-box{
+  @include flex(column, flex-end, flex-start)
+}

@@ -1,0 +1,10 @@
+@import '../utils/mixins';
+
+.input-box{
+  @include flex(row, initial, center);
+  margin-bottom: 1vw;
+
+  &__input{
+    margin-right: 2vw !important;
+  }
+}

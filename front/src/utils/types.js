@@ -1,0 +1,6 @@
+export const ADD_USER = 'ADD_USER'
+export const SET_ERROR = 'SET_ERROR'
+export const SET_MESSAGE = 'SET_MESSAGE'
+export const ADD_MESSAGES = 'ADD_MESSAGES'
+export const SET_FOCUS = 'SET_FOCUS'
+export const SET_TYPING = 'SET_TYPING'

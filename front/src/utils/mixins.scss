@@ -1,0 +1,12 @@
+$lightblue: #ADD8E6FF;
+$blue: #0000FFFF;
+$burlywood: #DEB887FF;
+
+
+
+@mixin flex($flex-direction, $justify-content, $align-items){
+  display: flex;
+  flex-direction: $flex-direction;
+  justify-content: $justify-content;
+  align-items: $align-items;
+}

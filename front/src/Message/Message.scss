@@ -1,0 +1,29 @@
+@import '../utils/mixins';
+
+.message{
+  @include flex(row, initial, center);
+  gap: 1vw;
+  margin: 10px 0;
+
+  &__container{
+    @include flex(column, initial, flex-start);
+    gap: 10px;
+    background-color: $lightblue;
+    padding: 5px 20px;
+    border-radius: 10px;
+  }
+
+  &__login{
+    color: $blue;
+  }
+
+  &--my-message{
+    flex-direction: row-reverse;
+    align-self: flex-end;
+
+
+    .message__container{
+      background-color: $burlywood;
+    }
+  }
+}

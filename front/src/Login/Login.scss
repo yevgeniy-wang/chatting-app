@@ -1,0 +1,8 @@
+@import "../utils/mixins";
+
+.login{
+  @include flex(column, center, center);
+  display: flex !important;
+  gap: 3vh;
+  height: 98vh;
+}
